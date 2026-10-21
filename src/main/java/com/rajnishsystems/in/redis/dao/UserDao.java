@@ -1,5 +1,8 @@
 package com.rajnishsystems.in.redis.dao;
-import org.apache.catalina.User;
+
+// TODO: Replace with your actual User class package!
+// import com.rajnishsystems.in.redis.models.User;
+import com.rajnishsystems.in.redis.models.User;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 

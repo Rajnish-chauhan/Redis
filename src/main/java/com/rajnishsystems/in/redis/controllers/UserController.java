@@ -1,7 +1,7 @@
 package com.rajnishsystems.in.redis.controllers;
 
 import com.rajnishsystems.in.redis.dao.UserDao;
-import org.apache.catalina.User;
+import com.rajnishsystems.in.redis.models.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

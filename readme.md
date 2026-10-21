@@ -68,5 +68,5 @@ Deletes a specific user based on their unique `userId`.
 *Java Backend & AI Integration Engineer*
 
 - 🌐 **Portfolio:** [rajnishsystems.in](https://rajnishsystems.in)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="18" height="18" alt="LinkedIn" /> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/rajnishchauhan">linkedin.com/in/rajnishchauhan</a>
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="18" height="18" alt="GitHub" /> <b>GitHub:</b> <a href="https://github.com/rajnish425">github.com/rajnish425</a>
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="18" height="18" alt="LinkedIn" /> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/rajnishchauhan">linkedin.com/in/rajnishchauhandeveloper</a>
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="18" height="18" alt="GitHub" /> <b>GitHub:</b> <a href="https://github.com/rajnish425">github.com/Rajnish-chauhan</a>

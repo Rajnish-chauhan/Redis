@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/users/**")
 public class UserController {
 
     private final UserDao userDao;
@@ -18,18 +18,19 @@ public class UserController {
         this.userDao = userDao;
     }
 
-    @PostMapping
+    @PostMapping("create")
     public User createUser(@RequestBody User user) {
         user.setUserId(UUID.randomUUID().toString());
         return userDao.save(user);
     }
 
-    @GetMapping("/{userId}")
+    @GetMapping("getUser/{userId}")
     public User getUser(@PathVariable("userId") String userId) {
         return userDao.get(userId);
     }
 
-    @GetMapping
+
+    @GetMapping("getAllusers")
     public List<User> getAll() {
         // Modern Java stream collection
         return userDao.findAll().values().stream()
@@ -37,7 +38,8 @@ public class UserController {
                 .toList();
     }
 
-    @DeleteMapping("/{userId}")
+
+    @DeleteMapping("delete/{userId}")
     public void deleteUser(@PathVariable String userId) {
         userDao.delete(userId);
     }
